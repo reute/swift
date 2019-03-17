@@ -30,7 +30,10 @@ class Concentration
             let card2 = Card(identifier: card1.identifier)
             cards += [card1, card2]
         }
+        
     }
+    
+    
     
     func chooseCard(at index: Int) {
         let cardChosen = cards[index]
@@ -67,6 +70,4 @@ class Concentration
                 return
         }
     }
-    
-    
 }
